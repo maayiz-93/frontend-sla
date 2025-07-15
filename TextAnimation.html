@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Animated Text</title>
+  <style>
+    body {
+      background-color: #f0f0f0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: Arial, sans-serif;
+    }
+
+    .text {
+      font-size: 2rem;
+      color: #0f71f0;
+      transition: 
+        color 0.3s ease,
+        transform 0.4s ease;
+    }
+
+    .text:hover {
+      color: #ea11df; /* changes color */
+      transform: scale(1.2) translateY(-10px); /* zoom + slide up */
+    }
+  </style>
+</head>
+<body>
+
+  <div class="text">Bounce effect</div>
+
+</body>
+</html>
